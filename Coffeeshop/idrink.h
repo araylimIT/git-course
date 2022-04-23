@@ -1,6 +1,4 @@
-#ifndef IDRINK_H
-#define IDRINK_H
-
+#pragma once
 #include "iproduct.h"
 
 class IDrink : public IProduct
@@ -14,5 +12,3 @@ public:
 
 
 };
-
-#endif // IDRINK_H
