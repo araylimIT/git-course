@@ -1,6 +1,4 @@
-#ifndef LATTE_H
-#define LATTE_H
-
+#pragma once
 #include "idrink.h"
 
 class Latte : public IDrink
@@ -14,4 +12,3 @@ protected:
     virtual void recStepFour();
 };
 
-#endif // LATTE_H
