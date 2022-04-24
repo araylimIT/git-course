@@ -1,6 +1,4 @@
-#ifndef COFFE_H
-#define COFFE_H
-
+#pragma once
 #include "idrink.h"
 
 class Coffe : public IDrink
@@ -13,6 +11,3 @@ protected:
     virtual void recStepTwo();
     virtual void recStepFour();
 };
-
-#endif // COFFE_H
-
