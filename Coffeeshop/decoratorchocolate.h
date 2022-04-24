@@ -1,5 +1,4 @@
-#ifndef DECORATORCHOCOLATE_H
-#define DECORATORCHOCOLATE_H
+#pragma once
 
 #include "idecorator.h"
 
@@ -9,6 +8,3 @@ public:
     DecoratorChocolate(IProduct* product = 0, double price = 0.8);
     virtual double price();
 };
-
-#endif // DECORATORCHOCOLATE_H
-
